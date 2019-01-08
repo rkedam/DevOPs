@@ -1,0 +1,33 @@
+uname -a ( system info)
+hear -nl /etc/issue show distribution
+mount mounted file system
+date system date
+uptime show uptime
+whoami show your user name
+man command show manual for command
+-a show all
+-R recursive list
+-r reverse order
+-t sort by last modified
+-S sort by file size
+-I long listing format
+-1 one file per line
+-m comma-separated  output 
+-Q quoted output
+
+Bash Variable
+
+env show enviroment variables 
+echo $NAME output of $NAME variable
+export NAME=value set $NAME to value
+$PATH ecevutable search path
+$HOME home directory
+$SHELL current shell
+
+grep -i case insensitive search
+grep -r recurisve search
+grep-v interverted search
+grep-o show matched part of file only 
+fin /dir/ -name name find files starting with name in dir 
+find /dir/ -user name find files owned by name of dir
+find /dir/ -mmin num find files modifed less than num minutes ago in dir
